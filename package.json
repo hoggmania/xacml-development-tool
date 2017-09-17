@@ -1,0 +1,53 @@
+{
+  "name": "xacml-development-tool",
+  "version": "0.1.0",
+  "description": "XACML Tool",
+  "main": "src/index.js",
+  "scripts": {
+    "compile": "webpack",
+    "build": "webpack -p",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel",
+    "minimal",
+    "starter"
+  ],
+  "author": "Chathurangi",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.3",
+    "faster-react-tabs": "^1.0.4",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-bootstrap-tabs": "^1.0.0",
+    "react-context-tabs": "^1.1.1",
+    "react-dom": "^15.6.1",
+    "react-native-scrollable-tab-view": "^0.6.7",
+    "react-router": "^4.2.0",
+    "react-simpletabs": "^0.7.0",
+    "react-tab-panel": "^2.2.7",
+    "react-tab-view": "^1.0.5",
+    "react-tabs": "^2.0.0",
+    "react-tabs-component": "^1.1.3",
+    "react-tabtab": "^0.8.0",
+    "react-transition-group": "^1.2.0",
+    "react-treebeard": "^2.0.3",
+    "read-yaml": "^1.1.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-middleware": "^1.11.0",
+    "yaml-with-import": "^1.0.6"
+  },
+  "devDependencies": {
+    "react-hot-loader": "^1.3.1"
+  }
+}
