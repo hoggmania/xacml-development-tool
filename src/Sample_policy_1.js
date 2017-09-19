@@ -3,14 +3,26 @@ import React, { Component } from 'react';
 
 var ContentEditable = require("react-contenteditable");
 var Sample_policy_1 = React.createClass({
-    getInitialState: function(){
-        return {html: "&lt;policy_set&gt; Authorization <i>Policy</i>&lt;/policy_set&gt;<br/>" +
-        "&lt;Policy&gt; Policy <i>1</i>&lt;/Policy&gt;<br/>" +
-        "&lt;Description&gt; Policy <i>1</i>&lt;/Description&gt;<br/>" +
-        "&lt;Target&gt; Policy <i>1</i>&lt;/Target&gt;<br/>" +
-        "&lt;policy&gt; Policy <i>1</i>&lt;/policy&gt;<br/>" +
-        "&lt;policy&gt; Policy <i>1</i>&lt;/policy&gt;<br/>" +
-        "&lt;policy&gt; Policy <i>1</i>&lt;/policy&gt;<br/>"};
+    getInitialState: function() {
+        return {
+            html: "&lt;policy_set&gt; <b>Authorization <i>Policy</i></b>&lt;/policy_set&gt;<br/>" +
+            "&lt;Policy&gt; Policy <i>1</i>&lt;/Policy&gt;<br/>" +
+            "&lt;Description&gt; Medi Corp access control policy&lt;/Description&gt;<br/>" +
+            "&lt;Target&gt; Policy <i>1</i>&lt;/Target&gt;<br/>" +
+            "&lt;Rule" +
+            "&lt;RuleId&gt; urn:oasis:names:tc:xacml:3.0:example:SimpleRule1&lt;/RuleId&gt;<br/>" +
+            "&lt;/Rule&gt;<br/>" +
+            "&gt; Policy <i>1</i>&lt;/policy&gt;<br/>" +
+            "&lt;Effect&gt; Permit &lt;/Effect&gt;<br/>" +
+            "&lt;policy&gt; Policy <i>2</i>&lt;/policy&gt;<br/>" +
+            "&lt;Description&gt; Medi Corp access control policy&lt;/Description&gt;<br/>" +
+            "&lt;Target&gt; Policy <i>1</i>&lt;/Target&gt;<br/>" +
+            "&lt;Rule" +
+            "&lt;RuleId&gt; urn:oasis:names:tc:xacml:3.0:example:SimpleRule1&lt;/RuleId&gt;<br/>" +
+            "&lt;/Rule&gt;<br/>" +
+            "&gt; Policy <i>1</i>&lt;/policy&gt;<br/>" +
+            "&lt;Effect&gt; Permit &lt;/Effect&gt;<br/>"
+        };
     },
 
     handleChange: function(evt){

@@ -59,7 +59,7 @@ class app extends React.Component {
                         Policy Combining Algorithm:
                         <td> <input type="text" value={this.state.rule_combine_algorithm} onChange={this.handleChange} />
                         </td></tr>
-                  
+
                     <div>
                     <fieldset>
                         <legend>Define Matches:</legend>
