@@ -35,12 +35,7 @@ class policy_management_window extends React.Component {
                             </fieldset>
                             <br/><br/><br/>
 
-                            <fieldset className="field_set_2">
-                                <legend>JSON
-                                    <br/><br/><br/><br/><br/> </legend>
-
-                            </fieldset>
-                            <br/><br/><br/><br/><br/><br/>
+                            
 
                         </fieldset>
                         </form>
