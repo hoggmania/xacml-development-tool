@@ -20,9 +20,11 @@ input[type=text] {
 }
 
 header {
-    background-color: rgba(233,121,20,0.84);
-    padding: 0.5px;
-   box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+    background-color: #444444;
+    padding: 0;
+    color: ghostwhite;
+   margin: 0;
+
 }
 
 .header img {
@@ -36,11 +38,50 @@ category_attribute_list {
     background-color: transparent;
     padding: 14px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-
 }
 
 .verticalLine {
     border-left: thick solid black;
+    border: thick solid black;
+    background-color: black;
+    top:0;
+    bottom: 0;
+    position: fixed;
+}
+
+.mycontent-left {
+    border-right: 1px solid #000000;
+}
+
+#template1_button{
+    min-height: 100px;
+    max-width: 300px;
+    background-color: #f17b31;
+}
+
+#create_new_policy_button{
+    min-height: 50px;
+    min-width: 150px;
+    background-color: #f17b31;
+}
+
+#open_file_button{
+    min-height: 50px;
+    min-width: 170px;
+    background-color:#484848;
+}
+
+#open_directory_button{
+    min-height: 50px;
+    min-width: 170px;
+    background-color:#484848;
+}
+
+.btn-default{
+    min-height: 60px;
+    min-width: 150px;
+
+
 }
 
 .field_set_1 {
@@ -49,8 +90,8 @@ category_attribute_list {
     border-radius:8px;
     box-shadow:0 0 5px #666;
     z-index: -1; position:relative;
-
 }
+
 legend {
     float:left;
     margin-top:-20px;
@@ -64,7 +105,7 @@ legend + * {
     padding-top:-20px;
     border:1px solid #666;
     border-radius:8px;
-    width: 500px;
+    width: 800px;
     margin:auto;
 
 }
@@ -74,9 +115,13 @@ legend + * {
     width:100% /* value of your choice which suits your alignment */
 }
 
+.verticalLine {
+    border-left: thick solid #000000;
+}
+
 #categories_and_attribute_list_window{
     width:455px;
-    height:600px;
+    height:400px;
     background:blue;
     border-radius: 10px;
     background: #dbd9be;
@@ -166,17 +211,24 @@ div.rowContents {
 }
 
 
+
+
+#tree1 .rst__lineFullVertical::after,
+#tree1 .rst__lineHalfVerticalTop::after,
+#tree1 .rst__lineHalfVerticalBottom::after,
+#tree1 .rst__lineChildren::after {
+    display: block;
+}
+
+
 #tree2 .rst__moveHandle{
     display: none;
 }
 
-
 #tree2 .rst__rowContents {
    border: none;
     -webkit-box-shadow:none;
-
 }
-
 
 #tree2 .rst__lineHalfHorizontalRight::before,
 #tree2 .rst__lineFullVertical::after,
@@ -184,6 +236,25 @@ div.rowContents {
 #tree2 .rst__lineHalfVerticalBottom::after,
 #tree2 .rst__lineChildren::after {
    display: none;
+}
+
+
+
+#tree3 .rst__moveHandle{
+    display: none;
+}
+
+#tree3 .rst__rowContents {
+    border: none;
+    -webkit-box-shadow:none;
+}
+
+#tree3 .rst__lineHalfHorizontalRight::before,
+#tree3 .rst__lineFullVertical::after,
+#tree3 .rst__lineHalfVerticalTop::after,
+#tree3 .rst__lineHalfVerticalBottom::after,
+#tree3 .rst__lineChildren::after {
+    display: none;
 }
 
 .col{
@@ -199,12 +270,136 @@ div.rowContents {
 
 
 
+#tree2{
+    width:800px;
+    height:600px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.93);
+}
 
 
 
+.list-group.panel > .list-group-item {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+.menu .accordion-heading {  position: relative; }
+.menu .accordion-heading .edit {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+}
+.menu .area { border-left: 4px solid #6bbbf3; }
+.menu .equipamento { border-left: 4px solid #65c465; }
+.menu .ponto { border-left: 4px solid #98b3fa; }
+.menu .collapse.in { overflow: visible; }
 
 
+.accordion{margin-bottom:20px;}
+.accordion-group{margin-bottom:2px;border:1px solid #e5e5e5;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.accordion-heading{border-bottom:0;}
+.accordion-heading .accordion-toggle{display:block;padding:8px 15px;}
+.accordion-toggle{cursor:pointer;}
+.accordion-inner{padding:9px 15px;border-top:1px solid #e5e5e5;}
 
 
+#equals{
+    width: 75px;
+}
+
+#occurences{
+    width: 75px;
+}
+
+#previous_policy_window{
+    width:455px;
+    height:200px;
+    background:blue;
+    border-radius: 10px;
+    background: #dbd9be;
+}
+
+#policy_ui{
+    overflow-y: scroll;
+    height: 60vh;
+}
+
+
+#div.horizontalgap {
+    float: left;
+    overflow: hidden;
+    height: 1px;
+    width: 10px;
+
+}
+
+.legendStyle{
+    padding: 0.2em 0.5em;
+    color:green;
+    font-size:100%;
+    text-align:left;
+}
+
+.fsStyle{
+    padding-top:-20px;
+    border:1px solid #b4b472;
+    border-radius:10px;
+    width: 1000px;
+    position: relative;
+    margin: 0 0 3em;
+}
+
+
+.btn-arrow-left {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 18px;
+}
+
+.btn-arrow-left {
+    padding-right: 36px;
+}
+
+.btn-arrow-left:before,
+.btn-arrow-left:after { /* make two squares (before and after), looking similar to the button */
+    content:"";
+    position: absolute;
+    top: 5px; /* move it down because of rounded corners */
+    width: 22px; /* same as height */
+    height: 22px; /* button_outer_height / sqrt(2) */
+    background: inherit; /* use parent background */
+    border: inherit; /* use parent border */
+    border-left-color: transparent; /* hide left border */
+    border-bottom-color: transparent; /* hide bottom border */
+    border-radius: 0px 4px 0px 0px; /* round arrow corner, the shorthand property doesn't accept "inherit" so it is set to 4px */
+    -webkit-border-radius: 0px 4px 0px 0px;
+    -moz-border-radius: 0px 4px 0px 0px;
+}
+
+.btn-arrow-left:before,
+.btn-arrow-left:after {
+    transform: rotate(225deg); /* rotate left arrow squares 225 deg to point left */
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+}
+
+.btn-arrow-left:before { /* align the "before" square to the left */
+    left: -11px;
+}
+
+.btn-arrow-left:after { /* align the "after" square to the right */
+    right: -11px;
+}
+
+.btn-arrow-left:before { /* bring arrow pointers to front */
+    z-index: 1;
+}
+
+.btn-arrow-left:after { /* hide arrow tails background */
+    background-color: white;
+}
 
 

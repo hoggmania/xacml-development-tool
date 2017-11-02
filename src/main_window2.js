@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header';
+import Header from './components/Header';
 import Todo from './Todo';
 import Sample_policy_1 from './Sample_policy_1';
 import category_attribute_list from './category_attribute_list'

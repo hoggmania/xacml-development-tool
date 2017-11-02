@@ -11,61 +11,64 @@ class policy_window extends React.Component {
         this.state = {
             value: "select",
         }
-        this.change=this.change.bind(this);
+        this.change = this.change.bind(this);
     }
-    change(event){
+
+    change(event) {
         this.setState({value: event.target.value});
     }
 
     render() {
 
-        const foo = ["Select policy template","Sample_policy_1","Sample_policy_2"];
+        const foo = ["Select policy template", "Sample_policy_1", "Sample_policy_2"];
 
 
         return (
 
-                         <div className="tabbable tabs-bottom">
-                            <div className="tab-content">
-                                <div className="tab-pane active" id="xml">
-                                    <div className="jumbotron">
-                                        <center>
-                                            <div>
-                                                <select id="policy_list" onChange={this.change} value={this.state.value}>
-                                                    {foo.map( item => <option value={item}>{item}</option> )}
+            <div className="tabbable tabs-bottom">
+                <div className="tab-content">
+                    <div className="tab-pane active" id="xml">
+                        <div className="jumbotron">
+                            <center>
+                                <div>
+                                    <select id="policy_list" onChange={this.change} value={this.state.value}>
+                                        {foo.map(item => <option value={item}>{item}</option>)}
 
-                                                </select>
-                                                {(this.state.value == "Sample_policy_1") && (<div><Sample_policy_1></Sample_policy_1></div>)}
-                                                {(this.state.value == "Sample_policy_2") && (<div><Sample_policy_2></Sample_policy_2></div>)}
-                                            </div>
-                                        </center>
-                                    </div>
+                                    </select>
+                                    {(this.state.value == "Sample_policy_1") && (
+                                        <div><Sample_policy_1></Sample_policy_1></div>)}
+                                    {(this.state.value == "Sample_policy_2") && (
+                                        <div><Sample_policy_2></Sample_policy_2></div>)}
                                 </div>
-                                <br/>
-                                <div className="tab-pane" id="ui">
-                                    <div className="jumbotron">
-                                       <div id="policy_template_window">mmmmm
-                                       </div>
-                                    </div>
-                                </div>
-
-                                <div className="tab-pane" id="view">
-                                    <div className="jumbotron">
-                                        <ReactMustache template="Welcome {{title}}" data={{title: 'Mr. Gregory'}} />
-                                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                            <ul className="nav nav-tabs">
-                                <li className="active"><a href="#xml" data-toggle="tab">XML View</a></li>
-                                <li><a href="#ui" data-toggle="tab">UI View</a></li>
-                                <li><a href="#view" data-toggle="tab">View</a></li>
-
-                            </ul>
-
+                            </center>
                         </div>
+                    </div>
+                    <br/>
+                    <div className="tab-pane" id="ui">
+                        <div className="jumbotron">
+                            <div id="policy_template_window">mmmmm
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="tab-pane" id="view">
+                        <div className="jumbotron">
+                            <ReactMustache template="Welcome {{title}}" data={{title: 'Mr. Gregory'}}/>
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <ul className="nav nav-tabs">
+                    <li className="active"><a href="#xml" data-toggle="tab">XML View</a></li>
+                    <li><a href="#ui" data-toggle="tab">UI View</a></li>
+                    <li><a href="#view" data-toggle="tab">View</a></li>
+
+                </ul>
+
+            </div>
 
 
         );

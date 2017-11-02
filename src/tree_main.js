@@ -11,8 +11,8 @@ const data = {
         {
             name: 'parent',
             children: [
-                { name: 'child1' },
-                { name: 'child2' }
+                {name: 'child1'},
+                {name: 'child2'}
             ]
         },
         {
@@ -26,8 +26,8 @@ const data = {
                 {
                     name: 'nested parent',
                     children: [
-                        { name: 'nested child 1' },
-                        { name: 'nested child 2' }
+                        {name: 'nested child 1'},
+                        {name: 'nested child 2'}
                     ]
                 }
             ]
@@ -36,28 +36,34 @@ const data = {
 };
 
 export default class TreeExample extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {};
         this.onToggle = this.onToggle.bind(this);
     }
-    onToggle(node, toggled){
-        if(this.state.cursor){this.state.cursor.active = false;}
+
+    onToggle(node, toggled) {
+        if (this.state.cursor) {
+            this.state.cursor.active = false;
+        }
         node.active = true;
-        if(node.children){ node.toggled = toggled; }
-        this.setState({ cursor: node });
+        if (node.children) {
+            node.toggled = toggled;
+        }
+        this.setState({cursor: node});
     }
-    render(){
+
+    render() {
 
         return (
             <div>
                 <Header title="XACML DEVELOPMENT TOOL"/>
                 <br/>
 
-            <Treebeard
-                data={data}
-                onToggle={this.onToggle}
-            />
+                <Treebeard
+                    data={data}
+                    onToggle={this.onToggle}
+                />
             </div>
         );
     }

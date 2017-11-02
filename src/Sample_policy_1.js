@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 
 var ContentEditable = require("react-contenteditable");
 var Sample_policy_1 = React.createClass({
-    getInitialState: function() {
+    getInitialState: function () {
         return {
             html: "&lt;policy_set&gt; <b>Authorization <i>Policy</i></b>&lt;/policy_set&gt;<br/>" +
             "&lt;Policy&gt; Policy <i>1</i>&lt;/Policy&gt;<br/>" +
@@ -25,11 +25,11 @@ var Sample_policy_1 = React.createClass({
         };
     },
 
-    handleChange: function(evt){
+    handleChange: function (evt) {
         this.setState({html: evt.target.value});
     },
 
-    render: function(){
+    render: function () {
 
 
         return <div id="policy_template_window"><ContentEditable

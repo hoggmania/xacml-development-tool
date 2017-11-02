@@ -11,35 +11,35 @@ class policy_management_window extends React.Component {
             value: "select",
             tabIndex: 0,
         }
-        this.change=this.change.bind(this);
+        this.change = this.change.bind(this);
     }
-    change(event){
+
+    change(event) {
         this.setState({value: event.target.value});
     }
 
     render() {
-        const getNodeKey = ({ treeIndex }) => treeIndex;
-        const maxDepth=2;
-
+        const getNodeKey = ({treeIndex}) => treeIndex;
+        const maxDepth = 2;
 
 
         return (
             <div>
-                        <form><fieldset className="field_set_1">
-                            <legend>Request</legend>
+                <form>
+                    <fieldset className="field_set_1">
+                        <legend>Request</legend>
 
-                            <fieldset className="field_set_2">
-                                <legend>XML
-                                    <br/><br/><br/><br/><br/> </legend>
-
-                            </fieldset>
-                            <br/><br/><br/>
-
-                            
+                        <fieldset className="field_set_2">
+                            <legend>XML
+                                <br/><br/><br/><br/><br/></legend>
 
                         </fieldset>
-                        </form>
-                    </div>
+                        <br/><br/><br/>
+
+
+                    </fieldset>
+                </form>
+            </div>
 
 
         );
