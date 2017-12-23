@@ -1,42 +1,29 @@
-import React, { Component } from 'react'
-import update from 'immutability-helper'
-import { DragDropContext } from 'react-dnd'
-import HTML5Backend, { NativeTypes } from 'react-dnd-html5-backend'
-import PolicyComponents from './PolicyComponents'
-import Box from './Box'
-import ItemTypes from './ItemTypes'
-import Sample_policy_1 from './Rule'
+import React from 'react';
+import update from 'immutability-helper';
+import Box from './Box';
+import ItemTypes from './ItemTypes';
+import Rule from './Rule';
+import Condition from './Condition';
+import Target from './Target';
 
-
-@DragDropContext(HTML5Backend)
-export default class Container extends Component {
+export default class Container extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            policycomponents: [
-                { accepts: [ItemTypes.RULE], lastDroppedItem: null },
-                { accepts: [ItemTypes.CONDITION], lastDroppedItem: null },
-                {
-                    accepts: [ItemTypes.OBLIGATION, ItemTypes.RULE],
-                    lastDroppedItem: null,
-                },
-                { accepts: [ItemTypes.OBLIGATION], lastDroppedItem: null },
-            ],
 
             boxes: [
-                { name: 'Rule', value:"hh",type: ItemTypes.RULE },
-                { name: 'Condition', value:<input type="text"/>, type: ItemTypes.CONDITION },
-                { name: 'Obligation',value:<input/>, type: ItemTypes.OBLIGATION },
+                { name: 'Target', type: ItemTypes.TARGET },
+                { name: 'Rule', type: ItemTypes.RULE },
+                { name: 'Condition', type: ItemTypes.CONDITION },
+                { name: 'Obligation',type: ItemTypes.OBLIGATION },
             ],
             droppedBoxNames: [],
-
         }
     }
 
     isDropped(boxName) {
         return this.state.droppedBoxNames.indexOf(boxName) > -0,
         this.state.droppedBoxNames.indexOf(boxName) > -0
-
     }
 
     render() {
@@ -47,39 +34,38 @@ export default class Container extends Component {
 
                 <div className="col-lg-3">
                     <div style={{ overflow: 'hidden', clear: 'both' }}>
-                        {boxes.map(({ value,name, type }, index) => (
+                        {boxes.map(({name, type }, index) => (
                             <Box
-                                value={value}
+
                                 name={name}
                                 type={type}
-
-                                isDropped={this.isDropped(value)}
+                                isDropped={this.isDropped(name)}
                                 key={index}
                             />
                         ))}
                     </div>
                 </div>
-
-
             </div>
         )
     }
 
+
     handleDrop(index, item) {
-        const { value } = item
-        const droppedBoxNames = value ? { $push: [value] } : {}
+        const { name } = item
+        const droppedBoxNames = name ? { $push: [name] } : {}
 
         this.setState(
             update(this.state, {
-                policycomponents: {
-                    [index]: {
-                        lastDroppedItem: {
-                            $set: item,
+                    policycomponents: {
+                        [index]: {
+                            lastDroppedItem: {
+                                $set: item,
+                            },
                         },
                     },
+                    droppedBoxNames
                 },
-                droppedBoxNames
-            }),
+            ),
         )
     }
 }

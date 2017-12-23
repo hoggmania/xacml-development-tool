@@ -1,12 +1,11 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import { DragSource } from 'react-dnd'
-
+import React from 'react';
+import PropTypes from 'prop-types';
+import {DragSource} from 'react-dnd';
 
 const boxSource = {
     beginDrag(props) {
         return {
-            value: props.value,
+            name: props.name,
         }
     },
 }
@@ -15,7 +14,7 @@ const boxSource = {
     connectDragSource: connect.dragSource(),
     isDragging: monitor.isDragging(),
 }))
-export default class Box extends Component {
+export default class Box extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -29,24 +28,32 @@ export default class Box extends Component {
     }
 
     render() {
-        const { name,value, isDropped, isDragging, connectDragSource } = this.props
+        const {name, value, isDropped, isDragging, connectDragSource} = this.props
         const opacity = isDragging ? 0.4 : 1
 
-
-            let border= '1px dashed gray'
-            let backgroundColor= 'white'
-                let padding= '0.5rem 1rem'
-            let marginRight= '1.5rem'
-            let marginBottom='1.5rem'
-            let cursor= 'move'
-            let float= 'left'
-
+        let border = '1px dashed gray'
+        let backgroundColor = 'white'
+        let padding = '0.5rem 1rem'
+        let marginRight = '1.5rem'
+        let marginBottom = '0.5rem'
+        let cursor = 'move'
+        let float = 'left'
+        let width = '75px'
 
         return connectDragSource(
-            <div style={{border,backgroundColor,padding,marginRight,marginBottom,cursor,float, opacity }}>
-                {isDropped ? <s>{value}</s> : name}
+            <div style={{
+                border,
+                backgroundColor,
+                padding,
+                marginRight,
+                marginBottom,
+                cursor,
+                float,
+                opacity,
+                width,
+            }}>
+                {isDropped ? <s>{name}</s> : name}
             </div>,
-
         )
     }
 }

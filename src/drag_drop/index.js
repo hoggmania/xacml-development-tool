@@ -1,17 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Container from './Container'
 
-export default class DustbinMultipleTargets extends Component {
+export default class PolicyComponentsMultipleTargets extends React.Component {
     render() {
         return (
             <div>
-                <p>
-                    <b>
-
-                    </b>
-                </p>
-
-                <Container />
+               <Container />
             </div>
         )
     }

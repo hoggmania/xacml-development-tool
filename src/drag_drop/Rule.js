@@ -1,50 +1,87 @@
 import React from 'react';
-import SortableTree1, {addNodeUnderParent, removeNodeAtPath, changeNodeAtPath} from 'react-sortable-tree';
+import update from 'immutability-helper';
+import {SortableTreeWithoutDndContext as SortableTree1} from 'react-sortable-tree';
+import Select from 'react-select';
+import ItemTypes from './ItemTypes';
+import RuleComponents from './RuleComponents';
+import Condition from './Condition';
+import Obligation from './Obligation';
 
 class Rule extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            treeData: [{title: 'User', children: [{title: 'Name'}, {title: 'Tenant'}]},
-                {title: 'Environment', children: [{title: 'IP'}, {title: 'Time'}]}],
+            rulecomponents: [
+                { accepts: [ItemTypes.CONDITION,ItemTypes.OBLIGATION], lastDroppedItem: null },
+            ],
 
-            treeData4: [{title: 'Drag an attribute'}],
-            shouldCopyOnOutsideDrop: true,
+            boxes: [
+                { name: 'Target', type: ItemTypes.TARGET },
+                { name: 'Rule', type: ItemTypes.RULE },
+                { name: 'Condition', type: ItemTypes.CONDITION },
+                { name: 'Obligation', type: ItemTypes.OBLIGATION }
+            ],
 
-            value: "select",
-            tabIndex: 0,
+            droppedBoxNames: [],
+            showComponent: true,
+
+            valueselect2: "",
+            valueselect3: "",
+            valueselect4: "",
+            value: ''
         }
+        this.onDelete = this.onDelete.bind(this);
+    }
+
+    isDropped(boxName) {
+        return this.state.droppedBoxNames.indexOf(boxName) > -0
     }
 
     render() {
-        const externalNodeType = 'yourNodeType';
-        const {shouldCopyOnOutsideDrop} = this.state;
-        const getNodeKey = ({treeIndex}) => treeIndex;
-
+        const { rulecomponents } = this.state
         return (
-            <div className="form-group">
-                    Rule name:<input type="text" name="firstname" value="rule name"/><br/>
-                    Rule effect:<input type="text" name="lastname" value="rule effect"/><br/>
+            <div className="container-fluid">
 
-                    <div id="tree2"
-                         style={{
-                             height: 75,
-                             width: 300,
-                             float: 'left',
-                             border: 'solid black 1px',
+                <div style={{ overflow: 'hidden', clear: 'both' }}>
+                    {rulecomponents.map(({ accepts, lastDroppedItem }, index) => (
 
-                         }}
-                    >
-                        <SortableTree1
-                            treeData={this.state.treeData4}
-                            onChange={treeData4 => this.setState({treeData4})}
-                            dndType={externalNodeType}
-                            shouldCopyOnOutsideDrop={shouldCopyOnOutsideDrop}
+                        this.state.showComponent ?
+                        <RuleComponents
+                            accepts={accepts}
+                            lastDroppedItem={lastDroppedItem}
+                            onDrop={item => this.handleDrop(index, item)}
+                            key={index}
+                            onDelete={this.onDelete}
+                            onSubmit1={this.props.onSubmit1}
+                            onSubmit3={this.props.onSubmit3}
                         />
-                    </div>
+                            :''
+                    ))}
                 </div>
-
+            </div>
         );
+    }
+
+    handleDrop(index, item) {
+        const { name } = item
+        const droppedBoxNames = name ? { $push: [name] } : {}
+
+        this.setState(
+            update(this.state, {
+                rulecomponents: {
+                    [index]: {
+                        lastDroppedItem: {
+                            $set: item,
+                        },
+                    },
+                },
+                droppedBoxNames
+            }),
+        )
+    }
+
+    onDelete() {
+        this.setState({ showComponent: false });
     }
 }
 

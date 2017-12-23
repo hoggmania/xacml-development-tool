@@ -6,7 +6,6 @@ class pre_policies extends React.Component {
         this.state = {}
     }
 
-
     render() {
         return (
             <div id="previous_policy_window">

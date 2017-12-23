@@ -2,79 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ae0945f-3ce6-427a-b31c-8b43a5629975" name="Default" comment="Add Readme">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/font-wso2.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/font-wso2.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/font-wso2.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Abc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ItemLister.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MyComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MyComponent2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TABS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/pre_policies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/welcome_samples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/main_window.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/policy_creating_window.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/policy_creating_window2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/policy_creating_window3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/welcome_window.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dnd/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dnd/Cart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dnd/Item.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dnd/ItemsDragLayer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dnd/ItemsTemplate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dnd/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/Box.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/Container.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/ItemTypes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/PolicyComponents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/PolicyElements.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/Rule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/Rule2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/Sample_policy_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/editAttributeDetails.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/entitlement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/new.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/new2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reactdnd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainTabWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/xml_view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/Condition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/Obligation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/RuleComponents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/Sample_policy_1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/drag_drop/Target.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/react-select.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test_REST.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test_axios.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test_axios2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test_axios3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test_axios4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test_axios5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/font-wso2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/font-wso2.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/font-wso2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/scss/_mixin.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ConfigConstants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Environment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generate_yaml.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generate_yaml_main.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Header.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main_window.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/initialapp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sortable_tree.js" afterPath="$PROJECT_DIR$/src/containers/sortable_tree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Resources.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Sample_policy_1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Sample_policy_2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TABS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Template_1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Todo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/annotations/Configuration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/annotations/Element.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/category_attribute_list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/policy_creating_window2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/policy_creating_window3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/drag_drop/Rule2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/editAttributeDetails.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/entitlement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/file.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/initialapp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/load_yaml.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/load_yaml2.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main_window2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main_window3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/modify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/parent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/policy_management_window.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/policy_viewing_window.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/policy_window.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test_REST.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test_axios.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tree_main.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Generate_yaml.java" afterPath="$PROJECT_DIR$/src/Generate_yaml.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sample_policy_1.js" afterPath="$PROJECT_DIR$/src/Sample_policy_1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sample_policy_2.js" afterPath="$PROJECT_DIR$/src/Sample_policy_2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/User.java" afterPath="$PROJECT_DIR$/src/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header.js" afterPath="$PROJECT_DIR$/src/components/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pre_policies.js" afterPath="$PROJECT_DIR$/src/components/pre_policies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/welcome_samples.js" afterPath="$PROJECT_DIR$/src/components/welcome_samples.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/main_window.js" afterPath="$PROJECT_DIR$/src/containers/main_window.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/policy_creating_window.js" afterPath="$PROJECT_DIR$/src/containers/policy_creating_window.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/sortable_tree.js" afterPath="$PROJECT_DIR$/src/containers/sortable_tree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/welcome_window.js" afterPath="$PROJECT_DIR$/src/containers/welcome_window.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drag_drop/Box.js" afterPath="$PROJECT_DIR$/src/drag_drop/Box.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drag_drop/Container.js" afterPath="$PROJECT_DIR$/src/drag_drop/Container.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drag_drop/ItemTypes.js" afterPath="$PROJECT_DIR$/src/drag_drop/ItemTypes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drag_drop/PolicyComponents.js" afterPath="$PROJECT_DIR$/src/drag_drop/PolicyComponents.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drag_drop/PolicyElements.js" afterPath="$PROJECT_DIR$/src/drag_drop/PolicyElements.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drag_drop/Rule.js" afterPath="$PROJECT_DIR$/src/drag_drop/Rule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drag_drop/index.js" afterPath="$PROJECT_DIR$/src/drag_drop/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main_window2.js" afterPath="$PROJECT_DIR$/src/main_window2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main_window3.js" afterPath="$PROJECT_DIR$/src/main_window3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/policy_management_window.js" afterPath="$PROJECT_DIR$/src/policy_management_window.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/policy_viewing_window.js" afterPath="$PROJECT_DIR$/src/policy_viewing_window.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/policy_window.js" afterPath="$PROJECT_DIR$/src/policy_window.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree.js" afterPath="$PROJECT_DIR$/src/tree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree_main.js" afterPath="$PROJECT_DIR$/src/tree_main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/font-wso2.css" afterPath="$PROJECT_DIR$/www/css/font-wso2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/font-wso2.min.css" afterPath="$PROJECT_DIR$/www/css/font-wso2.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/styles.css" afterPath="$PROJECT_DIR$/www/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/fonts/font-wso2.svg" afterPath="$PROJECT_DIR$/www/fonts/font-wso2.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/scss/_mixin.scss" afterPath="$PROJECT_DIR$/www/scss/_mixin.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,11 +98,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Rule.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/drag_drop/Rule.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drag_drop/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RuleComponents.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drag_drop/RuleComponents.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3276">
+              <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -111,26 +122,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Container.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/drag_drop/Container.js">
+      <file leaf-file-name="ItemTypes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drag_drop/ItemTypes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="50" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="policy_creating_window.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/policy_creating_window.js">
+      <file leaf-file-name="Obligation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drag_drop/Obligation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="36">
+              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,20 +157,8 @@
       <file leaf-file-name="PolicyComponents.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/drag_drop/PolicyComponents.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="policy_creating_window3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/policy_creating_window3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6376">
-              <caret line="113" column="62" lean-forward="false" selection-start-line="113" selection-start-column="62" selection-end-line="113" selection-end-column="62" />
+            <state relative-caret-position="3060">
+              <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -159,11 +166,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rule2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/drag_drop/Rule2.js">
+      <file leaf-file-name="Rule.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drag_drop/Rule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="1512">
+              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -171,11 +178,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sample_policy_2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/drag_drop/Sample_policy_2.js">
+      <file leaf-file-name="PolicyElements.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drag_drop/PolicyElements.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="95" column="78" lean-forward="false" selection-start-line="95" selection-start-column="78" selection-end-line="95" selection-end-column="78" />
+            <state relative-caret-position="1242">
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -183,52 +190,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.js">
+      <file leaf-file-name="Sample_policy_1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drag_drop/Sample_policy_1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="e#752#791#0" expanded="true" />
-                <element signature="e#896#922#0" expanded="true" />
-                <element signature="e#1009#1050#0" expanded="true" />
+                <marker date="1514000858079" expanded="true" signature="210:214" ph="&amp;lt;" />
+                <marker date="1514000858079" expanded="true" signature="268:272" ph="&amp;gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TABS.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TABS.js">
+      <file leaf-file-name="MainTabWindow.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainTabWindow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+            <state relative-caret-position="2520">
+              <caret line="140" column="28" lean-forward="false" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
-                <marker date="1509621515700" expanded="true" signature="1407:3224" ph="..." />
-                <marker date="1509621515700" expanded="true" signature="1519:1608" ph="..." />
-                <marker date="1509621515700" expanded="true" signature="1663:3218" ph="..." />
-                <marker date="1509621515700" expanded="true" signature="1845:1927" ph="..." />
-                <marker date="1509621515700" expanded="true" signature="1896:1917" ph="..." />
-                <marker date="1509621515700" expanded="true" signature="1990:2076" ph="..." />
-                <marker date="1509621515700" expanded="true" signature="2139:2225" ph="..." />
-                <marker date="1509621515700" expanded="true" signature="2288:2374" ph="..." />
-                <marker date="1509621515700" expanded="true" signature="2437:2523" ph="..." />
-                <marker date="1509621515700" expanded="true" signature="2586:2672" ph="..." />
-                <marker date="1509621515700" expanded="true" signature="2735:2821" ph="..." />
-                <marker date="1509621515700" expanded="true" signature="2884:2970" ph="..." />
-                <marker date="1509621515700" expanded="true" signature="3033:3119" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sortable_tree.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/sortable_tree.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
-              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -249,37 +230,44 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>style</find>
-      <find>movies</find>
-      <find>navbar-brand</find>
-      <find>nav</find>
-      <find>&amp;nb</find>
-      <find>header</find>
-      <find>verticalLine</find>
-      <find>request</find>
-      <find>create_new_policy_button</find>
-      <find>template1</find>
-      <find>react-router-dom</find>
-      <find>propTypes</find>
-      <find>lastDroppedItem</find>
-      <find>onDrop</find>
-      <find>clearItemSelection</find>
-      <find>paper</find>
-      <find>Dustbin</find>
-      <find>boxes</find>
-      <find>dus</find>
-      <find>policy_ui</find>
-      <find>drag an</find>
-      <find>shouldCopyOnOutsideDrop</find>
-      <find>externalNodeType</find>
-      <find>SortableTree</find>
-      <find>tree2</find>
-      <find>getNodeKey</find>
-      <find>treeData</find>
-      <find>treeData4</find>
-      <find>fieldset</find>
-      <find>treeData2</find>
+      <find>ENDANDOR</find>
+      <find>onde</find>
+      <find>ondelete</find>
+      <find>rule_combining_algorithm</find>
+      <find>xml view</find>
+      <find>submitRule</find>
+      <find>onsubmitRule</find>
+      <find>valueselect</find>
+      <find>onsubmit</find>
+      <find>submitdata</find>
+      <find>this.props.onSubmit</find>
+      <find>onDelete</find>
+      <find>onSubmit3</find>
+      <find>END</find>
+      <find>equals</find>
+      <find>equals-with-regexp-match</find>
+      <find>rule_effects</find>
+      <find>valuese</find>
+      <find>con</find>
+      <find>value3</find>
+      <find>condition_attribute_value</find>
+      <find>name</find>
+      <find>handleInputChange</find>
+      <find>addName</find>
+      <find>policy_name</find>
+      <find>rule_combine_algorithm</find>
+      <find>onSubmit</find>
+      <find>value</find>
+      <find>Sample_policy_1</find>
+      <find>foo</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$/node_modules/arr-diff</dir>
+      <dir>$PROJECT_DIR$/src/dnd</dir>
+      <dir>$PROJECT_DIR$/src/drag_drop1</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -292,57 +280,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/table.html" />
-        <option value="$PROJECT_DIR$/src/table.js" />
-        <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/reactdnd.js" />
-        <option value="$PROJECT_DIR$/src/drag_drop/Container.java" />
-        <option value="$PROJECT_DIR$/src/drag_drop/Dustbin.java" />
-        <option value="$PROJECT_DIR$/src/drag_drop/index.js" />
-        <option value="$PROJECT_DIR$/src/drag_drop/Box.js" />
-        <option value="$PROJECT_DIR$/src/test_REST.js" />
-        <option value="$PROJECT_DIR$/src/test_axios.js" />
-        <option value="$PROJECT_DIR$/src/drag_drop/App.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/ItemLister.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/src/Header.js" />
-        <option value="$PROJECT_DIR$/src/pre_policies.java" />
-        <option value="$PROJECT_DIR$/src/pre_policies.js" />
+        <option value="$PROJECT_DIR$/src/test/App.js" />
+        <option value="$PROJECT_DIR$/src/test/xml3.js" />
+        <option value="$PROJECT_DIR$/src/test/xml.js" />
+        <option value="$PROJECT_DIR$/src/test/xml4.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/model/Elements.js" />
+        <option value="$PROJECT_DIR$/src/model/TreeNode.js" />
+        <option value="$PROJECT_DIR$/src/model/Policy.js" />
+        <option value="$PROJECT_DIR$/src/model/Rule.js" />
+        <option value="$PROJECT_DIR$/src/model/Condition.js" />
+        <option value="$PROJECT_DIR$/src/model/Attributes.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/Condition.java" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/Obligation.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/Box.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/test.js" />
+        <option value="$PROJECT_DIR$/src/dnd_new/Tools.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/test2.js" />
+        <option value="$PROJECT_DIR$/src/model/Target.js" />
+        <option value="$PROJECT_DIR$/src/dnd_new/Box.js" />
+        <option value="$PROJECT_DIR$/src/test/xml2.js" />
         <option value="$PROJECT_DIR$/www/css/styles.css" />
-        <option value="$PROJECT_DIR$/src/welcome_samples.js" />
-        <option value="$PROJECT_DIR$/src/Abc.css" />
-        <option value="$PROJECT_DIR$/src/Abc.java" />
-        <option value="$PROJECT_DIR$/src/Abc.js" />
-        <option value="$PROJECT_DIR$/src/welcome_window.js" />
-        <option value="$PROJECT_DIR$/src/rest.js" />
-        <option value="$PROJECT_DIR$/src/MyComponent.js" />
-        <option value="$PROJECT_DIR$/src/MyComponent2.js" />
-        <option value="$PROJECT_DIR$/src/dnd/Cart.java" />
-        <option value="$PROJECT_DIR$/src/dnd/Cart.js" />
-        <option value="$PROJECT_DIR$/src/dnd/Item.java" />
-        <option value="$PROJECT_DIR$/src/dnd/ItemsDragLayer.js" />
-        <option value="$PROJECT_DIR$/src/dnd/ItemsTemplate.js" />
-        <option value="$PROJECT_DIR$/src/dnd/index.js" />
-        <option value="$PROJECT_DIR$/src/dnd/Item.js" />
-        <option value="$PROJECT_DIR$/src/dnd/App.js" />
-        <option value="$PROJECT_DIR$/src/drag_drop/Dustbin.js" />
-        <option value="$PROJECT_DIR$/src/drag_drop/ItemTypes.js" />
-        <option value="$PROJECT_DIR$/src/components/sortable_tree.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/PolicyElements.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/Rule.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/Condition.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/Container.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/Sample_policy_1.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/RuleComponents.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/PolicyComponents.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop1/Target.js" />
+        <option value="$PROJECT_DIR$/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/src/components/pre_policies.js" />
+        <option value="$PROJECT_DIR$/src/components/welcome_samples.js" />
+        <option value="$PROJECT_DIR$/src/containers/main_window.js" />
         <option value="$PROJECT_DIR$/src/containers/policy_creating_window.js" />
-        <option value="$PROJECT_DIR$/src/containers/policy_creating_window2.js" />
-        <option value="$PROJECT_DIR$/src/drag_drop/PolicyElements.js" />
-        <option value="$PROJECT_DIR$/src/drag_drop/PolicyComponents.js" />
         <option value="$PROJECT_DIR$/src/containers/sortable_tree.js" />
-        <option value="$PROJECT_DIR$/src/drag_drop/Sample_policy_2.js" />
-        <option value="$PROJECT_DIR$/src/drag_drop/Sample_policy_1.js" />
-        <option value="$PROJECT_DIR$/src/containers/policy_creating_window3.js" />
-        <option value="$PROJECT_DIR$/src/drag_drop/Rule2.js" />
-        <option value="$PROJECT_DIR$/src/drag_drop/Rule.js" />
+        <option value="$PROJECT_DIR$/src/containers/welcome_window.js" />
+        <option value="$PROJECT_DIR$/src/containers/xml_view.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop/Box.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop/Condition.js" />
         <option value="$PROJECT_DIR$/src/drag_drop/Container.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop/index.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop/Obligation.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop/PolicyComponents.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop/PolicyElements.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop/Rule.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop/RuleComponents.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop/Sample_policy_1.js" />
+        <option value="$PROJECT_DIR$/src/drag_drop/Sample_policy_2.js" />
+        <option value="$PROJECT_DIR$/src/TabNew.js" />
+        <option value="$PROJECT_DIR$/src/MainTabWindow.js" />
         <option value="$PROJECT_DIR$/src/main.js" />
-        <option value="$PROJECT_DIR$/src/TABS.js" />
       </list>
     </option>
   </component>
@@ -359,10 +347,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="352" />
-    <option name="y" value="156" />
-    <option name="width" value="1448" />
-    <option name="height" value="1040" />
+    <option name="x" value="774" />
+    <option name="y" value="-4" />
+    <option name="width" value="1146" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -397,9 +385,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -441,10 +428,23 @@
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xacml-development-tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xacml-development-tool" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xacml-development-tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xacml-development-tool" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -467,16 +467,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/drag_drop" />
-      <recent name="$PROJECT_DIR$/src/containers" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/containers" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/www/images" />
       <recent name="$PROJECT_DIR$/www/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/drag_drop1" />
+      <recent name="$PROJECT_DIR$/src/drag_drop" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/containers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -716,7 +717,55 @@
       <workItem from="1509424174172" duration="505000" />
       <workItem from="1509424999660" duration="20635000" />
       <workItem from="1509506188478" duration="12834000" />
-      <workItem from="1509586807227" duration="28930000" />
+      <workItem from="1509586807227" duration="30029000" />
+      <workItem from="1509935275125" duration="29532000" />
+      <workItem from="1510025888036" duration="23114000" />
+      <workItem from="1510109017971" duration="30901000" />
+      <workItem from="1510198715677" duration="22573000" />
+      <workItem from="1510236049823" duration="6327000" />
+      <workItem from="1510282391868" duration="15364000" />
+      <workItem from="1510322616559" duration="34877000" />
+      <workItem from="1510545465357" duration="28934000" />
+      <workItem from="1510630234569" duration="24652000" />
+      <workItem from="1510804708120" duration="11323000" />
+      <workItem from="1510890456764" duration="14096000" />
+      <workItem from="1511239730559" duration="5093000" />
+      <workItem from="1511329571721" duration="6066000" />
+      <workItem from="1511423492921" duration="5232000" />
+      <workItem from="1511494173526" duration="9505000" />
+      <workItem from="1511757301497" duration="1854000" />
+      <workItem from="1511846498570" duration="3071000" />
+      <workItem from="1511894185184" duration="436000" />
+      <workItem from="1512354613668" duration="4716000" />
+      <workItem from="1512444689712" duration="3899000" />
+      <workItem from="1512475509339" duration="822000" />
+      <workItem from="1512530432483" duration="2841000" />
+      <workItem from="1512569899082" duration="1597000" />
+      <workItem from="1512575033347" duration="2610000" />
+      <workItem from="1512616929336" duration="20492000" />
+      <workItem from="1512699777339" duration="23484000" />
+      <workItem from="1512829934106" duration="9268000" />
+      <workItem from="1512954813866" duration="17762000" />
+      <workItem from="1513047511408" duration="33573000" />
+      <workItem from="1513127686286" duration="17124000" />
+      <workItem from="1513224166105" duration="3894000" />
+      <workItem from="1513310038052" duration="5208000" />
+      <workItem from="1513350258494" duration="19057000" />
+      <workItem from="1513477988326" duration="575000" />
+      <workItem from="1513567654883" duration="8761000" />
+      <workItem from="1513584391437" duration="5369000" />
+      <workItem from="1513603613834" duration="10013000" />
+      <workItem from="1513654498283" duration="4155000" />
+      <workItem from="1513659401151" duration="22036000" />
+      <workItem from="1513694944503" duration="7727000" />
+      <workItem from="1513725388127" duration="4489000" />
+      <workItem from="1513738730045" duration="19316000" />
+      <workItem from="1513781708526" duration="1635000" />
+      <workItem from="1513812884950" duration="12000" />
+      <workItem from="1513824329553" duration="2064000" />
+      <workItem from="1513910526250" duration="1165000" />
+      <workItem from="1513997680836" duration="3783000" />
+      <workItem from="1514001551508" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1505631667360</created>
@@ -760,11 +809,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505812733236</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated Files">
+      <created>1509623810066</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1509623810066</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="674579000" />
+    <option name="totallyTimeSpent" value="1207260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -778,65 +834,35 @@
   <component name="ToolWindowManager">
     <frame x="73" y="-4" width="1847" height="1084" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.49583563" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.49583563" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.30372015" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.94946235" sideWeight="0.6574125" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" x="906" y="541" width="180" height="21" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35053763" sideWeight="0.6962798" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30860215" sideWeight="0.6574125" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36451614" sideWeight="0.6962798" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14936146" sideWeight="0.4963351" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14047751" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.49583563" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20266518" sideWeight="0.4963351" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14047751" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986118" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14436424" sideWeight="0.5036649" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14436424" sideWeight="0.5036649" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.47140476" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.49583563" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.30372015" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14047751" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986118" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.49583563" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.47140476" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15268818" sideWeight="0.6574125" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.6962798" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14602998" sideWeight="0.4963351" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.49583563" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14436424" sideWeight="0.5036649" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -875,18 +901,12 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add Readme" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Updated Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/containers/policy_creating_window.js</url>
-          <line>105</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -895,376 +915,222 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109853">
+          <caret line="11" column="64" lean-forward="false" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Elements.js" />
+    <entry file="file://$PROJECT_DIR$/src/test/example.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/xml.js" />
+    <entry file="file://$PROJECT_DIR$/src/test/xml3.js" />
+    <entry file="file://$PROJECT_DIR$/src/test/xml4.js" />
+    <entry file="file://$PROJECT_DIR$/src/policy_management_window.js" />
+    <entry file="file://$PROJECT_DIR$/src/containers/policy_creating_window.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="52" column="62" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drag_drop1/Condition.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/Attributes.js" />
+    <entry file="file://$PROJECT_DIR$/src/model/Rule.js" />
+    <entry file="file://$PROJECT_DIR$/src/model/Condition.js" />
+    <entry file="file://$PROJECT_DIR$/src/dnd/Item.js" />
+    <entry file="file://$PROJECT_DIR$/src/model/Policy.js" />
+    <entry file="file://$PROJECT_DIR$/src/model/TreeNode.js" />
+    <entry file="file://$PROJECT_DIR$/src/model/Target.js" />
+    <entry file="file://$PROJECT_DIR$/src/drag_drop1/test2.js" />
+    <entry file="file://$PROJECT_DIR$/src/drag_drop1/test.js" />
+    <entry file="file://$PROJECT_DIR$/src/dnd_new/Box.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-file-download/file-download.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pre_policies.java" />
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+    <entry file="file://$PROJECT_DIR$/src/drag_drop1/Target_old.js" />
+    <entry file="file://$PROJECT_DIR$/src/test/App.js" />
+    <entry file="file://$PROJECT_DIR$/www/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="80" lean-forward="false" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="80" />
+        <state relative-caret-position="2322">
+          <caret line="129" column="24" lean-forward="false" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abc.css" />
-    <entry file="file://$PROJECT_DIR$/src/Abc.java" />
-    <entry file="file://$PROJECT_DIR$/src/Environment.java">
+    <entry file="file://$PROJECT_DIR$/src/test/xml2.js" />
+    <entry file="file://$PROJECT_DIR$/src/drag_drop/Target.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/welcome_samples.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
-            <element signature="e#0#26#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pre_policies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="108">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="107" column="2" lean-forward="false" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
+        <state relative-caret-position="36">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/axios/dist/axios.js">
+    <entry file="file://$PROJECT_DIR$/src/components/welcome_samples.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test_axios5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sidebar.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/main_window.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/category_attribute_list.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/policy_creating_window.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entitlement.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/sortable_tree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/policy_viewing_window.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-902">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="682">
+          <caret line="293" column="0" lean-forward="false" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/welcome_window.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="659">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/xml_view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyComponent2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reactdnd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dnd/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dnd/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dnd/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dnd/Item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dnd/ItemsDragLayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="93" column="50" lean-forward="false" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dnd/ItemsTemplate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dnd/Cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="108" column="61" lean-forward="false" selection-start-line="108" selection-start-column="61" selection-end-line="108" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dnd/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="774">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/drag_drop/Box.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="839">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/drag_drop/ItemTypes.js">
+    <entry file="file://$PROJECT_DIR$/src/drag_drop/Condition.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drag_drop/PolicyElements.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="731">
+          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/policy_creating_window2.js">
+    <entry file="file://$PROJECT_DIR$/src/drag_drop/Container.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="753">
+          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/drag_drop/index.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drag_drop/ItemTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/main_window.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/src/drag_drop/Obligation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="272" column="6" lean-forward="false" selection-start-line="272" selection-start-column="1" selection-end-line="272" selection-end-column="6" />
+        <state relative-caret-position="36">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drag_drop/Rule2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/sortable_tree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/policy_creating_window.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drag_drop/Sample_policy_2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="95" column="78" lean-forward="false" selection-start-line="95" selection-start-column="78" selection-end-line="95" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/drag_drop/PolicyComponents.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+        <state relative-caret-position="3060">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/policy_creating_window3.js">
+    <entry file="file://$PROJECT_DIR$/src/drag_drop/PolicyElements.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6376">
-          <caret line="113" column="62" lean-forward="false" selection-start-line="113" selection-start-column="62" selection-end-line="113" selection-end-column="62" />
+        <state relative-caret-position="1242">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1273,55 +1139,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/drag_drop/Rule.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="1512">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/drag_drop/RuleComponents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3276">
+          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drag_drop/Sample_policy_2.js" />
+    <entry file="file://$PROJECT_DIR$/src/drag_drop/Sample_policy_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1514000858079" expanded="true" signature="210:214" ph="&amp;lt;" />
+            <marker date="1514000858079" expanded="true" signature="268:272" ph="&amp;gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainTabWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="140" column="28" lean-forward="false" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="180">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
-            <element signature="e#752#791#0" expanded="true" />
-            <element signature="e#896#922#0" expanded="true" />
-            <element signature="e#1009#1050#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drag_drop/Container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TABS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <marker date="1509621515700" expanded="true" signature="1407:3224" ph="..." />
-            <marker date="1509621515700" expanded="true" signature="1519:1608" ph="..." />
-            <marker date="1509621515700" expanded="true" signature="1663:3218" ph="..." />
-            <marker date="1509621515700" expanded="true" signature="1845:1927" ph="..." />
-            <marker date="1509621515700" expanded="true" signature="1896:1917" ph="..." />
-            <marker date="1509621515700" expanded="true" signature="1990:2076" ph="..." />
-            <marker date="1509621515700" expanded="true" signature="2139:2225" ph="..." />
-            <marker date="1509621515700" expanded="true" signature="2288:2374" ph="..." />
-            <marker date="1509621515700" expanded="true" signature="2437:2523" ph="..." />
-            <marker date="1509621515700" expanded="true" signature="2586:2672" ph="..." />
-            <marker date="1509621515700" expanded="true" signature="2735:2821" ph="..." />
-            <marker date="1509621515700" expanded="true" signature="2884:2970" ph="..." />
-            <marker date="1509621515700" expanded="true" signature="3033:3119" ph="..." />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

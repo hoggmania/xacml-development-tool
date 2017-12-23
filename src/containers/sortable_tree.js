@@ -1,28 +1,24 @@
 import React from 'react';
-import SortableTree, {addNodeUnderParent, removeNodeAtPath, changeNodeAtPath} from 'react-sortable-tree';
+import {SortableTreeWithoutDndContext as SortableTree, addNodeUnderParent, removeNodeAtPath, changeNodeAtPath} from 'react-sortable-tree';
 import SkyLight from 'react-skylight';
-import Sample_policy_1 from '../Sample_policy_1';
-import Sample_policy_2 from '../Sample_policy_2';
-import Policy_window from '../policy_window';
+import { DragDropContext } from 'react-dnd';
+import HTML5Backend, { NativeTypes } from 'react-dnd-html5-backend';
+import PolicyElements from '../drag_drop/PolicyElements';
 import Policy_creating_window from './policy_creating_window';
-import Policy_creating_window3 from './policy_creating_window3';
-import Policy_creating_window2 from './policy_creating_window2';
-import Pre_policies from '../components/pre_policies';
 
-
+@DragDropContext(HTML5Backend)
 class sortable_tree extends React.Component {
     constructor(props) {
 
         super(props);
         this.state = {
-
             treeData: [
                 {
-                    title: 'User',
+                    title: 'User',expanded: true,
                     children: [{title: 'ID'}, {title: 'Name'}],
                 },
                 {
-                    title: 'Environment',
+                    title: 'Environment',expanded: true,
                     children: [{title: 'IP'}, {title: 'Tenant'}],
                 },
             ],
@@ -41,25 +37,21 @@ class sortable_tree extends React.Component {
         this.setState({value: event.target.value});
     }
 
-
     render() {
         const externalNodeType = 'yourNodeType';
         const {shouldCopyOnOutsideDrop} = this.state;
         const getNodeKey = ({treeIndex}) => treeIndex;
-        const foo = ["Select policy template", "Sample_policy_1", "Sample_policy_2"];
-        const rule_combining_algorithm = ["Select rule combining algorithm", "Deny-overrides", "Permit-overrides", "First-applicable"];
         const equals = ["equals", "equals-with-regexp-match"];
         const occurences = ["END", "AND", "OR"];
 
         return (
             <div className="container-fluid">
-
-
                 <div className="row no-gutters">
-                    <div className="col-lg-0.5 verticalLine">
-                    </div>
-
-                    <div className="col-lg-3.5" id="tree1">
+                    <div className="col-lg-3" id="tree1">
+                        <center><h3>Tools</h3></center>
+                        <div id="tool_window">
+                       <PolicyElements/>
+                        </div>
 
                         <center><h3>Categories and Attributes List</h3></center>
                         <div id="categories_and_attribute_list_window">
@@ -141,7 +133,7 @@ class sortable_tree extends React.Component {
                                                     treeData: addNodeUnderParent({
                                                         treeData: state.treeData,
                                                         parentKey: path[path.length - 1],
-                                                        expandParent: false,
+                                                        expandParent: true,
                                                         getNodeKey,
                                                         newNode: {
                                                             title: '',
@@ -295,12 +287,10 @@ class sortable_tree extends React.Component {
 
                     <div className="col-lg-9">
                         <center><h3>Policy Creating Window</h3></center>
-                        <Policy_creating_window3></Policy_creating_window3>
+                        <Policy_creating_window></Policy_creating_window>
                     </div>
-
                 </div>
-            </div>
-
+                </div>
         );
     }
 }

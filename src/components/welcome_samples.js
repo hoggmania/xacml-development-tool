@@ -1,13 +1,10 @@
 import React from 'react';
-import SortableTree, {addNodeUnderParent, removeNodeAtPath, changeNodeAtPath} from 'react-sortable-tree';
-import SkyLight from 'react-skylight';
 
 class welcome_samples extends React.Component {
     constructor(props) {
         super(props);
         this.state = {}
     }
-
 
     render() {
         return (
