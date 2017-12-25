@@ -1,9 +1,7 @@
 import React from 'react';
 
 class Attributes {
-
     constructor(PolicyId, RuleCombiningAlgId, Version, MatchId, DataType,attributeId, category, dataType,mustBePresent,Effect,RuleId,FunctionId) {
-
         this._PolicyId = PolicyId;
         this._RuleCombiningAlgId = RuleCombiningAlgId;
         this._Version = Version;
@@ -112,14 +110,6 @@ class Attributes {
 
     set FunctionId(value) {
         this._FunctionId = value;
-    }
-
-
-
-    render() {
-        return (
-            '(${this.attributeId}, ${this.category}, ${this.dataType}, ${this.mustBePresent})'
-        )
     }
 }
 

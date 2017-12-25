@@ -1,14 +1,15 @@
 import React from 'react';
-import Attributes from './Attributes.js';
+import TreeNode from './TreeNode';
+import Attributes from './Attributes';
 
-class TreeNode {
+class Obligation extends TreeNode {
     constructor(name, type,text) {
-
-        this._text=text;
+        super(name, type,text);
         this._childElements = new ArrayList(TreeNode);
         this._attributes=new Attributes();
         this._name = name;
         this._type = type;
+        this._text = text;
     }
 
     get name() {
@@ -53,5 +54,5 @@ class TreeNode {
 
 }
 
-export default TreeNode;
+export default Obligation;
 

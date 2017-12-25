@@ -1,6 +1,8 @@
 import React from 'react';
 import TreeNode from './TreeNode';
 import Attributes from './Attributes';
+import Target from './Target';
+import Obligation from './Obligation';
 
 class Rule extends TreeNode {
     constructor(name, type,text) {
@@ -11,7 +13,6 @@ class Rule extends TreeNode {
         this._type = type;
         this._text = text;
     }
-
 
     get name() {
         return this._name;
@@ -53,12 +54,22 @@ class Rule extends TreeNode {
         this._attributes = value;
     }
 
-    render() {
-
-        return (
-            '(${this.name}, ${this.type},${this.childElements},${this.text})'
-        )
+    canAccept(node){
+        return Target | Condition | Obligation
     }
+
+    addTarget(node){
+        this.target.push(node);
+    }
+
+    addCondition(node){
+        this.condition.push(node);
+    }
+
+    addObligation(node){
+        this.obligation.push(node);
+    }
+
 }
 
 export default Rule;

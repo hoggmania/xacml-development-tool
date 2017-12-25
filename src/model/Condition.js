@@ -12,7 +12,6 @@ class Condition extends TreeNode {
         this._text = text;
     }
 
-
     get name() {
         return this._name;
     }
@@ -53,12 +52,6 @@ class Condition extends TreeNode {
         this._attributes = value;
     }
 
-    render() {
-
-        return (
-            '(${this.name}, ${this.type},${this.childElements},${this.text})'
-        )
-    }
 }
 
 export default Condition;

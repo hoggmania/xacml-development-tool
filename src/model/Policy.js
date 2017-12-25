@@ -6,7 +6,6 @@ import Target from './Target';
 class Policy extends TreeNode {
     constructor(name, type,text) {
         super(name, type,text);
-
         this._childElements = new ArrayList(TreeNode);
         this._attributes=new Attributes();
         this._name = name;
@@ -54,11 +53,6 @@ class Policy extends TreeNode {
         this._attributes = value;
     }
 
-
-
-
-
-
     canAccept(node){
         return Rule|Target
     }
@@ -69,12 +63,6 @@ class Policy extends TreeNode {
 
     addTarget(node){
         this.target.push(node);
-    }
-
-    render() {
-        return (
-            super.toString()
-        )
     }
 }
 
